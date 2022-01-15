@@ -68,6 +68,12 @@ main section styling
   border-radius: 41px;
   padding: 10px 24px;
   color: #fff;
+  transition: 0.3s ease;
+}
+.main-link:hover {
+  border: 2px solid #e02c6d;
+  background: transparent;
+  color: #e02c6d;
 }
 .fa-arrow-right {
   margin-left: 5px;

@@ -126,7 +126,7 @@ start of collection styling
 }
 .more-info {
   text-align: end;
-  margin-right: 120px;
+  margin-right: 50px;
   margin-top: 20px;
 }
 .more-info a {
@@ -165,3 +165,40 @@ newest product styling
 /* -------------------------
 end of newest product styling
 -------------------------- */
+/* ------------------------
+footer styling
+-------------------------- */
+.footer {
+  text-align: center;
+  background-color: #0a0826;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #d9dbe1;
+}
+.footer .icon {
+  margin-top: 15px;
+}
+.footer .icon a {
+  color: #fff;
+  font-size: 20px;
+}
+.footer .icon a i {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 15px;
+}
+/* --------------------------
+end of footer styling
+------------------------ */

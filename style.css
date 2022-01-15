@@ -78,6 +78,9 @@ end of main section styling
 /* --------------------
 start of collection styling 
 -----------------------*/
+.popular-collection {
+  margin-bottom: 150px;
+}
 .collection-title {
   font-size: 28px;
   color: #3a3a3a;
@@ -133,3 +136,32 @@ start of collection styling
 /* --------------------
 end of collection styling 
 --------------------------*/
+/* --------------------------
+newest product styling 
+-------------------------*/
+.newest-product-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.product-info {
+  width: 610px;
+  height: 224px;
+}
+.product-title {
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+.product-info p {
+  color: #6c6c6c;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.product-info a {
+  border-radius: 0;
+}
+/* -------------------------
+end of newest product styling
+-------------------------- */

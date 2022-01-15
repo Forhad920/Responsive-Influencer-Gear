@@ -270,8 +270,21 @@ start of media query styling
   }
 }
 @media (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .main-text {
+    width: 100%;
+  }
+  .product-info {
+    width: 95%;
+  }
+  .product-info p {
+    width: 95%;
+  }
   .collection-cards {
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
 }
 /* ----------------------------- 

@@ -276,6 +276,9 @@ start of media query styling
   .main-text {
     width: 100%;
   }
+  .newest-product-section {
+    width: 100%;
+  }
   .product-info {
     width: 95%;
   }
@@ -285,6 +288,24 @@ start of media query styling
   .collection-cards {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+  }
+}
+@media (max-width: 468px) {
+  .newest-product-section {
+    width: 100%;
+  }
+  .product-img img {
+    width: 70%;
+    margin-left: 65px;
+  }
+  .main-img img {
+    margin-top: 120px;
+    margin-left: 56px;
+  }
+}
+@media (max-width: 343px) {
+  .newest-product-section {
+    margin-bottom: 250px;
   }
 }
 /* ----------------------------- 

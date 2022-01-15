@@ -75,3 +75,61 @@ main section styling
 /* -------------------
 end of main section styling
 -------------------- */
+/* --------------------
+start of collection styling 
+-----------------------*/
+.collection-title {
+  font-size: 28px;
+  color: #3a3a3a;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.collection-cards {
+  width: 1054px;
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px 10px;
+}
+.collection-card {
+  width: 329px;
+  height: 445px;
+  padding-top: 17px;
+  padding-left: 14px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.item-banner img {
+  width: 300px;
+  height: 256px;
+}
+
+.item-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: #18191f;
+}
+.item-price {
+  font-size: 24px;
+}
+.filled {
+  color: #ffc014;
+}
+.collection-info span,
+.collection-ship {
+  color: #787885;
+  line-height: 143%;
+}
+.more-info {
+  text-align: end;
+  margin-right: 120px;
+  margin-top: 20px;
+}
+.more-info a {
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: bold;
+}
+/* --------------------
+end of collection styling 
+--------------------------*/
